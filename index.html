@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	 <!-- Rory Longson's Interal and Inline Styling assignment -->
-	 <!-- I think I barely needed to change this from before to fix the requirements. Whoops! -->
-		<title>Index Page Assignment 2:</title>
+	<meta charset="UTF-8">
+	 <!-- Rory Longson's Page Design assignment -->
+	 <!-- Trying to shake up what I have in here now. Hopefully the validation worked on your end, cause it said this is all good! -->
+		<title>Index Page Assignment 3:</title>
+	
+		<!-- Link to external CSS file. I know it's crossed out but why not -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+			
 		<style>
-		body {
-			text-align: center;
-			/* I like how monospace looks :)*/
-			font-family: monospace;
-		}
-		h1{
-			color:#e05662;
-			text-decoration: underline;
-		}
-		
-		h2{
-			color: darkviolet;
-			font-size: 70px;
-		}
-		
-		<!-- Does body count for an internal style change? I hope so, cause that looks like 3 -->
 		</style>
 	</head>
+	
 	<body>
-		<h1>Hello!</h1> 
-		<h2 style="font-size: 24px;">I'm Rory!</h2> 
-		<h2 style="font-size: 12px; color: gray; font-family: serif;"> I updated this 9/23/2024</h2>
-		<p> You might've noted by now that I'm very quiet and draw during class. That's pretty normal of me! <br> 
-		I have some experience in coding with python and C++, but barely any others. <br> 
-		This should also be my graduating year!</p>
+		<!-- div and class 1 -->
+		<div class="doc_heading1">
+		<p>Hello again!</p> 
+		</div>
 		
-		<span style="text-align: left;">
-			<h3 style="text-decoration: underline;">Hobbies!</h3>
+		<!-- div and class 2 -->
+		<div class="doc_heading2">
+		<h2 style="font-size: 24px; color: #91ddf2; text-decoration: underline;">Still Rory!</h2> 
+		<h2 style="font-size: 12px; color: #bdb5b7; font-family: serif;"> I updated this: 9/30/2024</h2>
+		<p>I'm running out of ideas to make these projects interesting to look at. <br>Eventually, I'm probably going to start talking about what's going on in my philosophy class just to put content here.</p>
+		</div>
+		
+		<!-- div and class 3 -->
+		<div class="interest_list" >
+			<h3 style="text-decoration: underline; text-align: center;">Hobbies!</h3>
 			<ul> 
 				<li>Art! Mainly digital, but I'm taking a class here too</li>
 				<li>Graphic design</li>
@@ -40,10 +36,8 @@
 				<li>Dipped my toes into 3D modeling!</li>
 				<li>There's a few RPGMaker work in progresses rotting on my PC too</li>
 			</ul>
-		</span>
 		
-		<span style="text-align: left;">
-			<h3 style="text-decoration: underline;">Favorite Games!</h3>
+			<h3 style="text-decoration: underline; text-align: center;">Favorite Games!</h3>
 			<ol> 
 				<li><a href="https://store.steampowered.com/franchise/DragonAge" target="_blank">Dragon Age: Origins or 2 (I just finished the series)</a></li>
 				<li><a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank">Red Dead Redemption 2</a></li>
@@ -51,15 +45,17 @@
 				<li><a href="https://store.steampowered.com/app/1086940/Baldurs_Gate_3/" target="_blank">Baldur's Gate 3</a></li>
 				<li><a href="https://off.fandom.com/wiki/Downloads" target="_blank">OFF (by Mortis Ghost)</a></li>
 			</ol>
-		</span>
+		</div>
 		
-		<h3 style="text-decoration: underline;">Art I've done!</h3>
-		<p>I get a lot of these finished in classes. I'm listening to the instruction, I just need something to do with my hands</p>
-		<span style="text-align: left;">
-			<img src="images/weirdscience.jpg" alt="Weird Science" width="15%">
-			<img src="images/gildedlily.jpg" alt="Wyll from BG3" width="15%">
-			<img src="images/thewolfman.jpg" alt="The Wolfman" width="15%">
-			<img src="images/undertale.jpg" alt="Undertale" width="18.5%">
-		</span>
+		<h3 style="text-decoration: underline; font-size: 36px; color:#bf374a">Updated art!</h3>
+		<p>Some of these I was doing in your class! Some are just stuff I did more recently <br> To no one's surprise, they're all Dragon Age related 🙄</p>
+		
+		<div class="drawings">
+			<img src="images/alistair.jpg" class="art" alt="Alistair DAO">
+			<img src="images/aedancousland.png" class="circle_border" alt="My DAO Warden">
+			<img src="images/morrigan.jpg" class="art" alt="Morrigan DAO">
+			<img src="images/lothaire.png" class="circle_border" alt="Planned Rook for DAV">
+			<img src="images/zevran.jpg" class="art" alt="Zevran DAO">
+		</div>
 	</body>
 </html>
