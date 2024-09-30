@@ -1,0 +1,45 @@
+body {
+			background: #0b0921;
+			color:#e9e4f5;
+			font-size: 14px;
+			text-align: center;
+			font-family: monospace;
+		}
+		.doc_heading1{
+			border: 10px;
+            background-color: #4e18a3;
+			color:#e9e4f5;
+			text-decoration: underline;
+			font-size: 50px;
+		}
+		
+		.doc_heading2{
+			font-family: serif;
+		}
+		
+		.interest_list{
+		display: inline-block;
+		text-align: left;
+		}
+		
+		.art{
+		width: 15%;
+		border: 5px solid #c93855;
+		border-radius:10%;
+		margin: 10px;
+		padding: 5px;
+		}
+		
+		.circle_border{
+		width: 15%;
+		border: 5px solid #c93855;
+		border-radius:100%;
+		margin: 10px;
+		padding: 5px;
+		}
+		
+		.drawings{
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+		}
