@@ -5,10 +5,17 @@
 			text-align: center;
 			font-family: monospace;
 		}
+		
+		.doc_header{
+			width: 75%;
+			/* line width, line type color */
+			border: 5px solid black;
+			margin-bottom: 30px;
+			margin-left: 30px;
 			
 		}
 		.doc_heading1{
-           		background-color: #4e18a3;
+            background-color: #4e18a3;
 			color:#e9e4f5;
 			text-decoration: underline;
 			font-size: 50px;
@@ -20,35 +27,34 @@
 		}
 		
 		.interest_list{
-			display: inline-block;
-			text-align: left;
+		display: inline-block;
+		text-align: left;
 		}
 		
 		.art{
-			width: 15%;
-			border: 5px solid #c93855;
-			border-radius:10%;
-			margin: 10px;
-			padding: 5px;
+		width: 15%;
+		border: 5px solid #c93855;
+		border-radius:10%;
+		margin: 10px;
+		padding: 5px;
 		}
 		
 		.circle_border{
-			width: 15%;
-			border: 5px solid #c93855;
-			border-radius:100%;
-			margin: 10px;
-			padding: 5px;
+		width: 15%;
+		border: 5px solid #c93855;
+		border-radius:100%;
+		margin: 10px;
+		padding: 5px;
 		}
 		
 		.drawings{
-			display: flex;
-			justify-content: center;
-			margin: 20px;
+		display: flex;
+		justify-content: center;
+		margin: 20px;
 		}
 		
 		.flex_container{
 			display: flex;
-			
 			justify-content: center;
 			flex-direction: row;
 			
@@ -63,3 +69,19 @@
 			background: linear-gradient(silver, white);
 			
 		}
+		
+		.video_container{
+			display: flex;
+			justify-content: center;
+			margin: 20px;
+			width: 560px;
+			height: 360px;
+			frameborder: 0;
+		}
+		
+		.video_container div{
+			width: 560px;
+			height: 360px;
+			frameborder: 0;
+		}
+		
