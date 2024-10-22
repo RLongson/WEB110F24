@@ -1,16 +1,18 @@
-body {
+		body {
 			background: #0b0921;
 			color:#e9e4f5;
 			font-size: 14px;
 			text-align: center;
 			font-family: monospace;
 		}
+			
+		}
 		.doc_heading1{
-			border: 10px;
             background-color: #4e18a3;
 			color:#e9e4f5;
 			text-decoration: underline;
 			font-size: 50px;
+			margin: 30px;
 		}
 		
 		.doc_heading2{
@@ -42,4 +44,22 @@ body {
 		display: flex;
 		justify-content: center;
 		margin: 20px;
+		}
+		
+		.flex_container{
+			display: flex;
+			
+			justify-content: center;
+			flex-direction: row;
+			
+		}
+		
+		.flex_container div {
+			background-color: #DDDDDD;
+			padding: 10px;
+			margin: 10px;
+			border: 1px solid black;
+			border-radius: 15px;
+			background: linear-gradient(silver, white);
+			
 		}
