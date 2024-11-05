@@ -26,6 +26,12 @@
 			font-family: serif;
 		}
 		
+		.doc_body{
+			display: inline-block;
+			text-align: left;
+			
+		}
+		
 		.interest_list{
 		display: inline-block;
 		text-align: left;
@@ -85,3 +91,36 @@
 			frameborder: 0;
 		}
 		
+		table {
+			background-image: url('../images/stars.jpg');
+			background-repeat: no-repeat;
+			border: 2px solid #5be4df;
+			padding: 20px;
+			margin: 15px;
+		}
+		
+		tr {
+			background-color: black;
+		}
+		
+		td {
+			background-color: black;
+			background: linear-gradient(#2e2b34, #252274);
+			padding: 10px;
+			text-align: center;
+		}
+		
+		th {
+			background-color: #4e18a3;
+		}
+		
+		.bg_image{
+			background-image: url('../images/stars.jpg');
+			background-repeat: no-repeat;
+		}
+		
+		caption{
+			font-family: serif;
+			font-size: 30px;
+			
+		}
