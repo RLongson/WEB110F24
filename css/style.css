@@ -37,12 +37,18 @@
 		text-align: left;
 		}
 		
+		@keyframes artfade {
+			0% { opacity: 0; }
+			100% { opacity: 1; }
+		}
+		
 		.art{
 		width: 15%;
 		border: 5px solid #c93855;
 		border-radius:10%;
 		margin: 10px;
 		padding: 5px;
+		animation: artfade 3s;
 		}
 		
 		.circle_border{
@@ -51,6 +57,7 @@
 		border-radius:100%;
 		margin: 10px;
 		padding: 5px;
+		animation: artfade 3s;
 		}
 		
 		.drawings{
@@ -169,10 +176,11 @@
 		.playicon{
 			width: 0; 
 			height: 0; 
-			border-top: 60px solid transparent;
-			border-bottom: 60px solid transparent;
-			border-left: 60px solid white;
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
+			border-left: 50px solid white;
 			margin: 15px;
+			transition: border 0.08s;
 		}
 		
 		.playicon:hover {
@@ -185,13 +193,16 @@
 			margin: 25px;
 			width: 0; 
 			height: 0; 
-			border-top: 50px solid transparent;
-			border-bottom: 50px solid transparent;
-			border-right: 50px solid #cfcfcf;
+			border-top: 40px solid transparent;
+			border-bottom: 40px solid transparent;
+			border-right: 40px solid #cfcfcf;
+			transition: border 0.08s;
 		}
 		
 		.leftskip:hover{
 			cursor: pointer;
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
 			border-right: 50px solid grey;
 		}
 		
@@ -199,13 +210,32 @@
 			margin: 25px;
 			width: 0; 
 			height: 0; 
-			border-top: 50px solid transparent;
-			border-bottom: 50px solid transparent;
-			border-left: 50px solid #cfcfcf;
+			border-top: 40px solid transparent;
+			border-bottom: 40px solid transparent;
+			border-left: 40px solid #cfcfcf;
+			transition: border 0.08s;
 		}
 
 		.rightskip:hover{
 			cursor: pointer;
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
 			border-left: 50px solid grey;
 		}
-		
+
+		@keyframes bounce {
+			0% { top: 0; 
+				height: 1%;
+			}
+			50% { top: -0.5em; }
+			70% { top: -1em; }
+			100% { top: 0; }
+		}
+
+		.pagedollanim{
+			margin-left: auto; 
+			margin-right: 0;
+			width: 10%;
+			position: relative;
+			animation: bounce 1s ease-in alternate infinite;
+		}
