@@ -132,3 +132,80 @@
 			padding: 20px;
 			margin: 15px;
 		}
+		
+		a {
+			color: #7dcde3;
+			text-decoration: none;
+			text-shadow: 0px 0px black;
+		}
+			
+		
+		/*visited link*/
+		a:visited {
+			color: #8d3af2;
+			}
+		/*mouse/cursor hoverong over*/
+		a:hover {
+			/*	color: crimson;*/
+			text-decoration: underline;
+		}
+		/*About to receive input*/
+		a:focus {
+			color: #bf5a72;
+		}
+		/*receiving input*/
+		a:active {
+			color: #de8398;
+		}
+		
+		.audio-player-container{
+			display: flex;
+			justify-content: center;
+			padding: 20px;
+			margin: 15px;
+
+		}
+		
+		.playicon{
+			width: 0; 
+			height: 0; 
+			border-top: 60px solid transparent;
+			border-bottom: 60px solid transparent;
+			border-left: 60px solid white;
+			margin: 15px;
+		}
+		
+		.playicon:hover {
+			background: red; 
+			cursor: pointer;
+			border: 60px solid red;
+			}
+			
+		.leftskip{
+			margin: 25px;
+			width: 0; 
+			height: 0; 
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
+			border-right: 50px solid #cfcfcf;
+		}
+		
+		.leftskip:hover{
+			cursor: pointer;
+			border-right: 50px solid grey;
+		}
+		
+		.rightskip{
+			margin: 25px;
+			width: 0; 
+			height: 0; 
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
+			border-left: 50px solid #cfcfcf;
+		}
+
+		.rightskip:hover{
+			cursor: pointer;
+			border-left: 50px solid grey;
+		}
+		
